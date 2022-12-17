@@ -1,0 +1,73 @@
+.profile-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-content {
+    width: 100%;
+}
+
+.profile-content > div {
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 0.3rem;
+    border: 1px solid lightgray;
+}
+
+.profile-content__title {
+    padding: 10px 0 10px 10%;
+    font-size: 1.2rem;
+    color: rgb(115, 115, 120);
+}
+
+.profile-content__thumnail {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-btn__chthum {
+    background: none;
+    border: none;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-img__chthum {
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.profile-save {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.profile-btn__save{
+    padding: 15px;
+    width: 30%;
+    background-color: rgb(232, 250, 239);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-btn__save:hover {
+    background-color: lightgreen;
+}
+
+.profile-content__aka {
+    height: 170px;
+}
+
+.profile-aka {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.profile-aka__input {
+    height: 30px;
+    width: 400px;
+    font-size: 1.2rem;
+}

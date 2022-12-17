@@ -1,0 +1,35 @@
+.loginmodal_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginmodal_modal__toptext {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.loginmodal_form {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.loginmodal_text_span {
+    font-size: 0.8rem;
+}
+.loginmodal_input {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginmodal_btn {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(134, 247, 158);
+    border: none;
+}

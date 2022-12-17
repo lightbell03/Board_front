@@ -1,0 +1,38 @@
+.register_container {
+    display: flex;
+    justify-content: center;
+}
+
+.register_title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.form_container {
+    padding: 5px 20px 0px 20px;
+    background-color: rgb(240, 248, 250);
+    border-radius: 10px;
+    width: 270px;
+    height: 400px;
+}
+
+.form_container div {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.user_input {
+    width: 90%;
+    margin-left: 7px;
+    padding: 5px;
+}
+
+.submit_button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(134, 247, 158);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

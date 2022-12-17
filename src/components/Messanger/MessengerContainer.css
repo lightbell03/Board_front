@@ -1,0 +1,28 @@
+.mc-container {
+    position: fixed;
+    bottom: 5%;
+    right: 5% ;
+    width: 60px;
+    height: 60px;
+}
+
+.mc-newmessage-count {
+    position: absolute;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 100%;
+}
+
+.mc-btn {
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+    z-index: 80;
+}

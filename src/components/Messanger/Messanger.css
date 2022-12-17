@@ -1,0 +1,21 @@
+.slide-right div{
+    animation: 400ms slide-right forwards;
+    transform: translateX(100%);
+}
+
+.slide-left div {
+    animation: 400ms slide-left forwards;
+    transform: translate(-100%);
+}
+
+@keyframes slide-right {
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-left {
+    to {
+        transform: translateX(0%);
+    }
+}

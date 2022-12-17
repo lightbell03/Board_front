@@ -1,0 +1,20 @@
+.nav-slide-down {
+    z-index: -1;
+    position: absolute; 
+    top: 60px; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    height: 200px;
+    border-bottom: px solid lightgray;
+    animation: 400ms slide-down forwards;
+    transform: translateY(-20%);
+}
+
+@keyframes slide-down {
+    to {
+        transform: translateY(0%);
+    }
+}

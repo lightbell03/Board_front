@@ -1,0 +1,37 @@
+.side-nav__container {
+    margin-top: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.side-nav__content {
+    width: 100%;
+}
+
+.side-nav__content {
+    text-align: center;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.side-nav__link {
+    display: block;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.side-nav__link_ul {
+    display: block;
+    padding: 10px 0px;
+    margin-left: 0;
+    list-style: none;
+}
+
+.side-nav__link:hover {
+    background-color: aliceblue;
+}
+
+.side-nav__link_ul:hover {
+    background-color: aliceblue;
+}

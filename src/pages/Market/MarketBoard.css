@@ -1,0 +1,38 @@
+.market-head {
+    border-bottom: 1px solid lightgray;
+    height: 100px;
+}
+
+.market-head__text {
+    color: lightgray;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.market-content__container {
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.market-content__box {
+    margin: 20px 40px;
+    cursor: pointer;
+    width: 23%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+}
+
+.market-content__img {
+    object-fit: cover;
+}
+
+.market-content__content {
+    height: 40%;
+    margin-left: 5px;
+}
