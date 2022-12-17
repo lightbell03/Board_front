@@ -1,4 +1,4 @@
-# perfectmeal front
+# 게시판 front
 Spring boot 와 Reactjs 를 공부하기 위해 만든 개인 프로젝트 입니다.
 ## 기술 스택
 * Reactjs
